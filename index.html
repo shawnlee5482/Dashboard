@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>SungChan Lee - Full Stack Developer</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="lib/jquery/jquery.min.js"></script>
+	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+	<script src="js/min/index.min.js"></script>
+	<link href="css/min/index.min.css" rel="stylesheet">
+</head>
+<body>
+    <div id="bib" class="container-fluid">
+        <div class="col-md-1 col-sm-5 col-xs-4">
+            <img width = "100%" src = "myphoto.jpg">
+        </div>
+
+        <div class = "col-md-10 col-sm-12 col-xs-12">
+            <h4>Hi. My name is SungChan.</h4>
+            <h4>I worked in Samsung for mobile software development during last 14 years.</h4>
+            <h4>I worked as a developer 4 years and as a software project manager for 10 years.</h4>
+            <h4>After my family immigrated to United States 2016, I want to resume my career as a software developer again.</h4>
+            <h4>Refreshing development skill, I successfully finished 'MEAN stack' course as a 'black belt' and other stacks including
+                'Backbone' and 'Redis/Redux' in 'Coding Dojo' bootcamp at Bellevue, Seattle.</h4>
+        </div>
+    </div>
+    <hr>
+
+    <div class="container-fluid">
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#MEAN">MEAN</a></li>
+            <li><a data-toggle="tab" href="#ReactRedux">React/Redux</a></li>
+            <li><a data-toggle="tab" href="#Backbone">Backbone</a></li>
+            <li><a data-toggle="tab" href="#Interest">Other Interest</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <div id="MEAN" class="tab-pane active">
+                <h1> Discussion Board </h1>
+                <!--<img src="discussionboard_login.png" width="45%"> <br>-->
+                <img class="img-rounded" src="discussionboard_topicdetail.png" width="45%">
+                <p>
+                    This application displays all Topics posted by the users and the real-time count of posts/answers for that specific topic. <br>
+
+                    <ul>
+                        <li>SignUp/Login account </li>
+                        <li>JWT token based authentication  </li>
+                        <li>New topic creation with name and description and a image. </li>
+                        <li>Add picture from various source including Google Image, Flikr, Facebook... (used 'Filepicker' API) </li>
+                        <li>Adding a new post in the topic and a image </li>
+                        <li>Add a comment for each post in the topic </li>
+                        <li>Up/down vote for each post </li>
+                        <li>Data is stored in MongoDB</li>
+                        <li>Karma/Jasmine Testing has been performed partially </li>
+                    </ul>
+                    <br>
+                    <a href="discussionboard.png">Click this for the wireframe senario</a> <br>
+                    <a href="#">Click this for the actual demo page</a> <br>
+                    <a href="#">Click this for the source code in Github</a>
+
+                </p>
+            </div>
+
+            <div id="ReactRedux" class="tab-pane fade">
+                <h1>ReactRedux</h1>
+            </div>
+
+            <div id="Backbone" class="tab-pane fade">
+                <h1>ReactRedux</h1>
+            </div>
+
+            <div id="Interest" class="tab-pane fade">
+                <h1>OtherInterest</h1>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
